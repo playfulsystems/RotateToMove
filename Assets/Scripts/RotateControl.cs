@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotateControl : MonoBehaviour
 {
-    float rotationSpeed = 6;
+    float rotationSpeed = 950;
     Rigidbody2D rb;
 
     void Start()
@@ -16,11 +16,11 @@ public class RotateControl : MonoBehaviour
     void Update()
     {
         if (Input.GetKey(KeyCode.LeftArrow)) {
-            rb.MoveRotation(GetComponent<Rigidbody2D>().rotation + rotationSpeed);
+            rb.MoveRotation(GetComponent<Rigidbody2D>().rotation + (rotationSpeed*Time.deltaTime));
             //transform.Rotate(0, 0, rotationSpeed);
         }
         else if(Input.GetKey(KeyCode.RightArrow)) {
-            rb.MoveRotation(GetComponent<Rigidbody2D>().rotation - rotationSpeed);
+            rb.MoveRotation(GetComponent<Rigidbody2D>().rotation - (rotationSpeed * Time.deltaTime));
             //transform.Rotate(0, 0, -rotationSpeed);
         }
     }

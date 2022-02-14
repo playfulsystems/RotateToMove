@@ -9,10 +9,10 @@ public class ClickToStart : MonoBehaviour
         Time.timeScale = 0;
     }
 
-	void Update()
+    void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-		{
+        if (Input.anyKey)
+	    {
             Time.timeScale = 1;
             gameObject.SetActive(false);
         }
