@@ -5,11 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MoveDown : MonoBehaviour
 {
-    public float speed = -2f;
+    Rigidbody2D rb;
 
-    // Start is called before the first frame update
+    // move it via velocity
     void Start()
     {
-        GetComponent<Rigidbody2D>().velocity = new Vector2(0f, speed);
+        rb = GetComponent<Rigidbody2D>();
     }
+
+	void FixedUpdate()
+	{
+        rb.MovePosition(rb.position + new Vector2(0, -0.04f));
+	}
+    
 }

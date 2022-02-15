@@ -343,7 +343,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ac9381e546b544d1ad359ee0c9abff6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -2
 --- !u!50 &533798645
 Rigidbody2D:
   serializedVersion: 4
@@ -410,7 +409,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ac9381e546b544d1ad359ee0c9abff6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -2
 --- !u!61 &665310072
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -836,7 +834,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ac9381e546b544d1ad359ee0c9abff6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -2
 --- !u!212 &1520412166
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1052,7 +1049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ac9381e546b544d1ad359ee0c9abff6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -2
 --- !u!61 &1683910611
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1320,7 +1316,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ac9381e546b544d1ad359ee0c9abff6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -2
 --- !u!61 &2123473266
 BoxCollider2D:
   m_ObjectHideFlags: 0
